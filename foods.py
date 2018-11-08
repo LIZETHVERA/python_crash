@@ -2,7 +2,7 @@
 my_foods = ['pizza','falafel','carrot cake']
 
 # Crea una nueva lista y asignala a una variable
-friends_foods = my_foods#FFC0CB#FFC0CB[:]
+friends_foods = my_foods #FFC0CB#FFC0CB[:]
 
 friends_foods.append ('papas')
 
@@ -54,3 +54,21 @@ test(list3)
 print(list3)
 print(hex(id(list3)))
 	
+
+
+
+my_foods = ['pizza','falafel','carrot cake']
+
+friends_foods = my_foods [:]
+my_foods.append ("cannoli")
+friends_foods.append ("ice cream")
+
+print ('My favorite foods are: ')
+for food in my_foods [:]:
+	print(food.title()) 
+
+print ("\nMy friend's favorite foods are:")
+for food in friends_foods [:]:
+	print(food.title()) 
+
+
